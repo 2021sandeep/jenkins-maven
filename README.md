@@ -1,2 +1,2 @@
 # jenkins-maven
-# jenkins-maven
+# jenkins-maven-project
