@@ -14,6 +14,12 @@ pipeline {
                 // 
             }
         }
+          post { 
+            always { 
+               junit allowEmptyResult:true , testResult : 'target/surefire-report/*.xml'
+        }
+    }
+}
         stage('Deploy') { 
             steps {
                 sh "mvn package "
