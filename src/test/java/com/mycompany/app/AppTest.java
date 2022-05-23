@@ -46,4 +46,9 @@ public class AppTest
     {
         assertTrue( true );
     }
+       @Test
+    public void shouldAnswerWithTrue8()
+    {
+        assertTrue( true );
+    }
 }
